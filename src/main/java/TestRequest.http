@@ -1,26 +1,24 @@
 ###
-GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan1&lastName=Ivanov&salary=100&departmentId=1
 
 ###
-GET http://localhost:8080/employee/add?firstName=Petr&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan2&lastName=Ivanov&salary=200&departmentId=1
 
 ###
-GET http://localhost:8080/employee/add?firstName=Igor&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan3&lastName=Ivanov&salary=10&departmentId=2
 
 ###
-GET http://localhost:8080/employee/add?firstName=Maxim&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan4&lastName=Ivanov&salary=1000&departmentId=2
 
 ###
-GET http://localhost:8080/employee/add?firstName=Pavel&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan5&lastName=Ivanov&salary=200000&departmentId=3
 
 ###
-GET http://localhost:8080/employee/add?firstName=Sergey&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan6&lastName=Ivanov&salary=2300&departmentId=3
 
 ###
-GET http://localhost:8080/employee/remove?firstName=Sergey&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan7&lastName=Ivanov&salary=12&departmentId=4
 
 ###
-GET http://localhost:8080/employee/find?firstName=Sergey&lastName=Ivanov
+GET http://localhost:8080/employees/add?firstName=Ivan8&lastName=Ivanov&salary=2059&departmentId=4
 
-###
-GET http://localhost:8080/employee/all
