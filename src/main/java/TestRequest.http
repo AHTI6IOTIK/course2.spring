@@ -1,0 +1,26 @@
+###
+GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/add?firstName=Petr&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/add?firstName=Igor&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/add?firstName=Maxim&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/add?firstName=Pavel&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/add?firstName=Sergey&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/remove?firstName=Sergey&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/find?firstName=Sergey&lastName=Ivanov
+
+###
+GET http://localhost:8080/employee/all
